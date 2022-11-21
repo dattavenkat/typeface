@@ -1,3 +1,1 @@
-If you are using some programming language or scraping service, what you need to do is to find all "img" tags,
-iterate over them and extract attr "href" from each found object. Then you probably need to normalize URL as sometimes people use relative URI to resource 
-(image in this case). Then when you have URL of image you can retrieve it using standard http request and save response to the filesystem as image file.
+If you're using a programming language or scraping service, you'll need to search for all "img" tags,  iterate , and extract the "href" attribute from each found object. Second, you'll probably want to normalize the URL, as you'll sometimes  use a relative uri to resource  (an image in this case). Then, once you have the image URL, you can retrieve it with a standard HTTP request and save the response as an image file to your file system.
